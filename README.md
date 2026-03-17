@@ -6,7 +6,6 @@ Static brochure site for Telegram Cookies — French shortbread cookies made in 
 
 ```
 index.html          — Single-page site (hero, ingredients, story, footer)
-wholesale.html      — Wholesale info page
 css/style.css       — Styles
 js/main.js          — Minimal JS (smooth scroll, map interaction)
 fonts/              — Self-hosted brand fonts (WOFF2)
@@ -22,9 +21,11 @@ sitemap.xml         — XML sitemap
 
 ## Development
 
-No build step. Open `index.html` in a browser. For deployment, push to `main` and configure GitHub Pages or Netlify to serve from the root.
+No build step. Open `index.html` in a browser.
 
 ## Deployment
+
+Push to `main` and configure GitHub Pages or Netlify to serve from the root.
 
 ```bash
 git push origin main
