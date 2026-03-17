@@ -3,16 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#3A4756">
   <link rel="icon" type="image/png" href="images/favicon.png?v=5">
-  <title>Telegram Cookies — French Shortbread Cookies, Made in Massachusetts</title>
-  <meta name="description" content="French shortbread cookies made in Massachusetts with three ingredients. Nothing artificial. Find them at 45+ specialty stores.">
+  <link rel="canonical" href="https://telegramcookies.com/">
+  <title>Telegram Cookies — French Shortbread, Made in Massachusetts</title>
+  <meta name="description" content="French shortbread cookies made with three ingredients in Arlington, MA. No artificial colors, flavors, or preservatives. Find us at 45+ specialty stores across Massachusetts.">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Telegram Cookies — French Shortbread Cookies">
-  <meta property="og:description" content="Three ingredients. Nothing artificial. Made in Massachusetts">
+  <meta property="og:description" content="Three ingredients. Nothing artificial. French shortbread cookies made in Arlington, Massachusetts.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://telegramcookies.com">
   <meta property="og:image" content="https://telegramcookies.com/images/pouch-front.png">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1080">
+  <meta property="og:site_name" content="Telegram Cookies">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Telegram Cookies — French Shortbread Cookies">
+  <meta name="twitter:description" content="Three ingredients. Nothing artificial. Made in Massachusetts.">
+  <meta name="twitter:image" content="https://telegramcookies.com/images/pouch-front.png">
 
   <!-- Google Fonts: Cutive Mono, Cedarville Cursive -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,129 +37,158 @@
   <link rel="preload" href="fonts/TayBasal-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodBusiness",
+    "name": "Telegram Cookies",
+    "description": "French shortbread cookies made with three ingredients in Arlington, Massachusetts.",
+    "url": "https://telegramcookies.com",
+    "logo": "https://telegramcookies.com/images/icon-logo.png",
+    "image": "https://telegramcookies.com/images/pouch-front.png",
+    "email": "hello@telegramcookies.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Arlington",
+      "addressRegion": "MA",
+      "postalCode": "02476",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://instagram.com/telegramcookies"
+    ]
+  }
+  </script>
 </head>
 <body>
 
+  <!-- Skip to content -->
+  <a href="#main" class="skip-link">Skip to content</a>
+
   <!-- Navigation -->
-  <nav class="nav" role="navigation" aria-label="Main navigation">
+  <nav class="nav" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="/" class="nav-logo">
-        <img src="images/icon-logo.png" alt="Telegram Cookies" height="100">
+        <img src="images/icon-logo.png"
+             alt="Telegram Cookies — home"
+             width="166" height="100"
+             fetchpriority="high">
       </a>
     </div>
   </nav>
+
   <!-- Hero -->
-  <section class="hero" id="top">
-    <div class="hero-inner">
-      <div class="hero-text">
-        <span class="script-accent">A French Recipe</span>
-        <h1>French Shortbread Cookies</h1>
-        <p class="hero-subline">Made in Massachusetts</p>
-      </div>
-      <div class="hero-image">
-        <img src="images/pouch-front.png"
-             alt="Telegram Cookies pouch — French shortbread cookies"
-             width="360" height="480"
-             loading="eager">
-      </div>
-    </div>
-  </section>
-
-  <!-- Airmail Divider -->
-  <div class="airmail-stripe" aria-hidden="true"></div>
-
-  <!-- The Cookie -->
-  <section class="cookie-section" id="cookie">
-    <div class="cookie-inner">
-      <div class="cookie-layout">
-        <div class="cookie-image">
-          <img src="images/cookies-stacked.png"
-               alt="Stacked French shortbread cookies"
-               width="320" height="320"
-               loading="lazy">
+  <main id="main">
+    <section class="hero" id="top" aria-label="Hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <span class="script-accent">A French Recipe</span>
+          <h1>French Shortbread Cookies</h1>
+          <p class="hero-subline">Made in Massachusetts</p>
+          <div class="hero-ctas">
+            <a href="https://maps.app.goo.gl/zSkyfa5UFfwF4qt78" class="btn btn-primary" target="_blank" rel="noopener">Find a Store</a>
+            <a href="mailto:hello@telegramcookies.com" class="btn btn-secondary">Get in Touch</a>
+          </div>
         </div>
-        <div class="cookie-text">
-          <p class="cookie-script">Three Ingredients</p>
-          <p class="ingredient-list">Flour, Salted Butter, Sugar</p>
-          <p class="no-artificial">No Artificial Colors, Flavors, or Preservatives</p>
+        <div class="hero-image">
+          <picture>
+            <source srcset="images/pouch-front.webp" type="image/webp">
+            <img src="images/pouch-front.png"
+                 alt="Telegram Cookies pouch — French shortbread cookies made with flour, salted butter, and sugar"
+                 width="360" height="480"
+                 fetchpriority="high">
+          </picture>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Airmail Divider -->
-  <div class="airmail-stripe" aria-hidden="true"></div>
+    <div class="airmail-stripe" aria-hidden="true"></div>
 
-  <!-- Where to Buy -->
-  <section class="find-section" id="find">
-    <div class="find-inner">
-      <h2>Find a Store</h2>
-      <p class="find-proof">
-        Including Formaggio Kitchen, DeLuca's Market, Bacco's, and 45+ specialty stores across Massachusetts.
-      </p>
-      <div class="map-container" id="map-wrapper">
-        <div class="map-overlay" id="map-overlay"></div>
-        <iframe
-          src="https://www.google.com/maps/d/embed?mid=1p1WwGaT4ybs3aaFhpw2EbVrEz9RD65A"
-          title="Telegram Cookies store locations"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          allowfullscreen>
-        </iframe>
-      </div>
-    </div>
-  </section>
-
-  <!-- Airmail Divider -->
-  <div class="airmail-stripe" aria-hidden="true"></div>
-
-  <!-- Our Story -->
-  <section class="story-section" id="story">
-    <div class="story-inner">
-      <div class="story-header">
-        <p class="cookie-script">French Shortbreads</p>
-        <p class="ingredient-list">Born in France</p>
-        <p class="no-artificial">Made in Massachusetts</p>
-        <img src="images/georges-stamp.png"
-             alt="Georges, founder of Telegram Cookies — Meet the Baker stamp illustration"
-             class="story-stamp"
-             loading="lazy">
-      </div>
-      <div class="story-content">
-        <div class="story-text">
-          <p>It started small. One winter, my wife, our children, and I baked butter cookies in our kitchen. We pressed little messages into them and sent them to friends by mail. They liked the idea, but they remembered the taste.</p>
-          <p>I grew up in France, where butter cookies melt in your mouth and stay in your mind. That same taste found a home here. When our kitchen could no longer keep up, we moved to a small bakery in Massachusetts.</p>
-          <p>Now we make French shortbread cookies the way they should be made, with pure butter and real cane sugar. Nothing extra. Nothing rushed.</p>
-          <p>I hope they bring a bit of joy to your table, as they have to ours.</p>
-          <p class="story-signature">— Georges Duverger</p>
+    <!-- Three Ingredients -->
+    <section class="cookie-section" id="cookie" aria-label="Ingredients">
+      <div class="cookie-inner">
+        <div class="cookie-layout">
+          <div class="cookie-image">
+            <picture>
+              <source srcset="images/cookies-photo.webp" type="image/webp">
+              <img src="images/cookies-photo.png"
+                   alt="" aria-hidden="true"
+                   width="320" height="320"
+                   loading="lazy">
+            </picture>
+          </div>
+          <div class="cookie-text">
+            <p class="cookie-script">Three Ingredients</p>
+            <h2 class="ingredient-list">Flour, Salted Butter, Sugar</h2>
+            <p class="no-artificial">No Artificial Colors, Flavors, or Preservatives</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Airmail Divider -->
-  <div class="airmail-stripe" aria-hidden="true"></div>
+    <div class="airmail-stripe" aria-hidden="true"></div>
+
+    <!-- Our Story -->
+    <section class="story-section" id="story" aria-label="Our Story">
+      <div class="story-inner">
+        <div class="story-header">
+          <p class="cookie-script">French Shortbreads</p>
+          <h2 class="ingredient-list">Born in France</h2>
+          <p class="no-artificial">Made in Massachusetts</p>
+          <picture>
+            <source srcset="images/georges-stamp.webp" type="image/webp">
+            <img src="images/georges-stamp.png"
+                 alt="Georges Duverger, founder of Telegram Cookies"
+                 class="story-stamp"
+                 width="150" height="171"
+                 loading="lazy">
+          </picture>
+        </div>
+        <div class="story-content">
+          <div class="story-text">
+            <p>It started small. One winter, my wife, our children, and I baked butter cookies in our kitchen. We pressed little messages into them and sent them to friends by mail. They liked the idea, but they remembered the taste.</p>
+            <p>I grew up in France, where butter cookies melt in your mouth and stay in your mind. That same taste found a home here. When our kitchen could no longer keep up, we moved to a small bakery in Massachusetts.</p>
+            <p>Now we make French shortbread cookies the way they should be made, with pure butter and real cane sugar. Nothing extra. Nothing rushed.</p>
+            <p>I hope they bring a bit of joy to your table, as they have to ours.</p>
+            <p class="story-signature">— Georges Duverger</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="airmail-stripe" aria-hidden="true"></div>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-logo">
-        <img src="images/logo-secondary.png" alt="Telegram Cookies" height="50">
+        <picture>
+          <source srcset="images/logo-secondary.webp" type="image/webp">
+          <img src="images/logo-secondary.png" alt="Telegram Cookies" width="250" height="50" loading="lazy">
+        </picture>
       </div>
       <nav class="footer-social" aria-label="Social links">
-        <a href="https://instagram.com/telegramcookies" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://facebook.com/telegramcookies" target="_blank" rel="noopener">Facebook</a>
-        <a href="https://linkedin.com/company/telegramcookies" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://instagram.com/telegramcookies" target="_blank" rel="noopener" aria-label="Telegram Cookies on Instagram">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+          </svg>
+          <span class="footer-ig-label">Instagram</span>
+        </a>
       </nav>
-      <div class="footer-contact">
+      <address class="footer-contact">
         Telegram Cookies LLC<br>
         Arlington, MA 02476<br>
-        hello@telegramcookies.com
-      </div>
+        <a href="mailto:hello@telegramcookies.com">hello@telegramcookies.com</a>
+      </address>
       <p class="footer-tagline">Nothing extra. Nothing rushed.</p>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
