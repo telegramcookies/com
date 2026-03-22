@@ -6,7 +6,7 @@ Single-page static brochure site for [telegramcookies.com](https://telegramcooki
 - Static HTML/CSS/JS — no framework, no build step
 - Hosted on GitHub Pages or Netlify
 - Google Fonts (Cutive Mono, Cedarville Cursive) + self-hosted WOFF2 (BN Bergen St, BN Tillsdale, Tay Basal)
-- Analytics: Ahrefs (`tOjMPh5G/JCDZnwlUuVVfw`)
+- Analytics: Ahrefs (`tOjMPh5G/JCDZnwIUuVVfw`)
 
 ## Brand Colors
 - Navy: `#3A4756`
